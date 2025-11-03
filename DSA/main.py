@@ -63,3 +63,13 @@ print(str8[0])
 print("something is good")
 
 print('after another landed0')
+
+
+
+str14 = 'finetuning the machine learning models'
+
+print(str14[16]) 
+
+cc = str14[16]
+
+print(ord(cc))
