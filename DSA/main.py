@@ -93,4 +93,7 @@ age = "26"
 print(name,age)
 print(name + age) 
 
+a_name = "Tanvir Rahman Soad"
+a_age = 23 
 
+print(f"My name is {name} and my age is {age}, i got a brother his name {a_name} and age {a_age}")
