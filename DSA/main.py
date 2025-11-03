@@ -73,3 +73,13 @@ print(str14[16])
 cc = str14[16]
 
 print(ord(cc))
+
+str10 = 'Tanjumul Alom Siam is here '
+print(str10[0:7:1])
+
+
+a = 55 
+
+a = str(a)
+print(a)
+print(type(a))
