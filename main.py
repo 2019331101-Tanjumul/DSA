@@ -56,3 +56,5 @@ A =  'tanjumul Alom'
 
 print(A[3])
 
+str4 = 'committhrough your thoughts'
+print(str4[8])
