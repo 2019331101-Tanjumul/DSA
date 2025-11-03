@@ -97,3 +97,19 @@ a_name = "Tanvir Rahman Soad"
 a_age = 23 
 
 print(f"My name is {name} and my age is {age}, i got a brother his name {a_name} and age {a_age}")
+
+
+# input("What is your age ? ")
+
+
+tage = int(input("What is your actual age ? "))
+
+# print(type(tage))
+print(tage)
+
+print(type(tage))
+#but to change the type i have to do : i have to put int() while declaring in the input variable in the top
+
+
+
+
