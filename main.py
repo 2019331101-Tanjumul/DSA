@@ -51,3 +51,8 @@ print(ord(str2))
 b = 65 #this is the unicode that prints this number to character. now use chr 
 
 print(chr(b))
+
+A =  'tanjumul Alom'
+
+print(A[3])
+
