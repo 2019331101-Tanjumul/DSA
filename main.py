@@ -58,3 +58,5 @@ print(A[3])
 
 str4 = 'committhrough your thoughts'
 print(str4[8])
+str8 = 'thiss is fun'
+print(str8[0])
