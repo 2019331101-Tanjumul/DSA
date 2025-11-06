@@ -122,15 +122,30 @@
 
 
 
-a = 22
-b = 22 
+# a = 22
+# b = 22 
 
-if a > b :
-    print(" a is greater !!")
+# if a > b :
+#     print(" a is greater !!")
 
 
-elif a == b : 
-    print("everyting is equal")
-else : 
-    print(" b is bigger here !")
+# elif a == b : 
+#     print("everyting is equal")
+# else : 
+#     print(" b is bigger here !")
           
+          
+          
+          
+          
+          
+money = float(input("please provide us the money you have with : "))
+
+if money == 10 : 
+    print (" i can get a ice cream now")
+
+elif money > 10 and money >= 15 : 
+    print("i can get a burger now")
+    
+else : 
+    print( "I can take UBER and go home now , then i can get my home meal ! ")
