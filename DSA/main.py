@@ -122,12 +122,15 @@
 
 
 
-a = 10 
+a = 22
 b = 22 
 
 if a > b :
     print(" a is greater !!")
 
+
+elif a == b : 
+    print("everyting is equal")
 else : 
     print(" b is bigger here !")
           
