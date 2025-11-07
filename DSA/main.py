@@ -187,7 +187,9 @@
 
 year = int(input("Please enter here the Year :"))
 
-if year%100 == 0 and year % 4 == 0 : 
+if year%100 == 0 and  year % 4 == 0 : 
     print("This year is Leapyear")
+elif year%100 != 0 and year%4 == 0 : 
+    print("This is a leap year")
 else: 
-    print("This isn't a leap year !")
+    print("This is a normal year !")
