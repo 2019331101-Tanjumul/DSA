@@ -166,10 +166,12 @@ B = 'Madam'
 
 point = str(input("Who you are ? male or female ? Male 'A' & female 'B' "))
 
-if point == 'A':
+if point == 'A' or point == 'a':
     print(f"Good Morning {A}")
+elif point == 'B' or point == 'b' : 
+    print(f"Good Morning {B}")
 else:
-    print(f"Good morning {B}") 
+    print("You have inserted the wrong inputs here !") 
     
 
     
