@@ -237,11 +237,20 @@
 
 
 
-a = 'Tanjumul Alom siam'
-for i in range(0 , 8 , 1): 
-    print(a[i])
+# a = 'Tanjumul Alom siam'
+# for i in range(0 , 8 , 1): 
+#     print(a[i])
     
-print(len(a))
+# print(len(a))
 
-for i in range(len(a)): 
-    print(a[i])
+# for i in range(len(a)): 
+#     print(a[i])
+
+
+#2nd type of iteration
+
+# a1 = 'Bangladesh'
+# for i in a1 : 
+#     print (i)
+
+
