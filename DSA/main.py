@@ -254,3 +254,25 @@
 #     print (i)
 
 
+# a = 'tanjumulalomsiam'
+
+# for i in range(0,16): 
+#     if a[i] == 12: 
+#         break
+#     else:
+#         print(a[i])
+
+# for i in range (0 , 21 ): 
+#     if i == 15 : 
+#        continue # break 
+#     else : 
+#         print(i)
+
+
+for i in range (1, 31 ): 
+   if i == 88:
+       
+    print(" This statement is running") 
+    break
+else: 
+    print("the statement is now else")
