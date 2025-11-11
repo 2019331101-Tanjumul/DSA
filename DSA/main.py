@@ -289,12 +289,20 @@
 #     print(i)
     
     
-n = int(input("Enter number : "))
-for i in range(1 , n+1, 1):
-    print(i)
-    continue 
-else : 
-    j = int(input("enter another :"))
-    for k in range(j , 0 , -1): 
-        print(k)
-        
+# n = int(input("Enter number : "))
+# for i in range(1 , n+1, 1):
+#     print(i)
+#     continue 
+# else : 
+#     j = int(input("enter another :"))
+#     for k in range(j , 0 , -1): 
+#         print(k)
+
+#now printing the table of the numbers  : 
+ 
+# Print table but skip 5
+t = int(input("Enter the number : "))
+for i in range(1, 11):
+    if i == 5:
+        continue # Skip iteration when i is 5
+    print(f"{t} * {i} then = {t*i}")
