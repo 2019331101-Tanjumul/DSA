@@ -323,3 +323,5 @@
 #for the second glow
 #for the third glow 
 #python for 1 hour then Postgresql for 15 mins more 
+#system designing post or drowing the system from the draw.ai for the browser and website response. 
+#completing the second system design 
