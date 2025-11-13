@@ -322,3 +322,4 @@
 #daily commiting 1 for the green glow : 1 
 #for the second glow
 #for the third glow 
+#python for 1 hour then Postgresql for 15 mins more 
