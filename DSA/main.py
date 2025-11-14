@@ -360,3 +360,30 @@
 
 # select * from hiname; # never forge to add this line at the last as to print on the console what you have doen
 # here the next 30 mins starts 
+
+drop table if exists hiname; 
+
+create table hiname (
+
+id serial primary key, 
+name varchar (200), 
+city varchar(100)
+
+);
+
+insert into hiname(name , city)
+values ( 'siam' , 'gaibandha'), 
+('alom', 'dhaka'), ('devi johns', 'flying duchman ship'), 
+('sham', 'india'); 
+
+select * from hiname; 
+
+--updating now 
+
+update hiname
+
+set city = 'Sylhet'
+
+where id = 1;
+
+select * from hiname order by id;
