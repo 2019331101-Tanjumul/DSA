@@ -351,7 +351,7 @@ city varchar(100)
 
 );
 
-insert into hiname(name , city)
+insert into hiname(name , city) #committing again
 values ( 'siam' , 'gaibandha'), 
 ('alom', 'dhaka'), ('devi johns', 'flying duchman ship'); 
 
