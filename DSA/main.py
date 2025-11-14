@@ -332,7 +332,7 @@
 
 drop table if exists hiname; #to drop the table if previously created with this name
 
-create table hiname (
+create table hiname ( #creating table with the table name and setting the variable and the collumns of the tables also.
 
 id serial primary key, 
 name varchar (200), 
