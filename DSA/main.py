@@ -334,7 +334,7 @@ drop table if exists hiname; #to drop the table if previously created with this 
 
 create table hiname ( #creating table with the table name and setting the variable and the collumns of the tables also.
 
-id serial primary key, 
+id serial primary key, # here is the new thing i don't have to serialize one by one from now , it will do by itself with the defalut thing with id serial primary key here 
 name varchar (200), 
 city varchar(100)
 
