@@ -325,3 +325,23 @@
 #python for 1 hour then Postgresql for 15 mins more 
 #system designing post or drowing the system from the draw.ai for the browser and website response. 
 #completing the second system design 
+
+
+#learning query for postgresql also : 
+
+
+drop table if exists hiname; 
+
+create table hiname (
+
+id serial primary key, 
+name varchar (200), 
+city varchar(100)
+
+);
+
+insert into hiname(name , city)
+values ( 'siam' , 'gaibandha'), 
+('alom', 'dhaka'), ('devi johns', 'flying duchman ship'); 
+
+select * from hiname; 
