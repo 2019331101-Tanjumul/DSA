@@ -387,3 +387,29 @@ set city = 'Sylhet'
 where id = 1;
 
 select * from hiname order by id;
+
+#using the default values in a absense of any input : 
+
+drop table if exists customers;
+
+create table customers ( 
+
+acc_num serial primary key, 
+name varchar(100), 
+acc_type varchar(50) not null default 'Savings'
+
+
+);
+
+
+insert into customers 
+( name , acc_type) values  
+('tanjumul', 'student account'),
+('munni','brothel money '),
+('shilla', default); 
+
+
+select * from customers; 
+
+
+-- acc_type varchar(195) not null default 'savings'
