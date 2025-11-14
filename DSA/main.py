@@ -330,7 +330,7 @@
 #learning query for postgresql also : 
 
 
-drop table if exists hiname; 
+drop table if exists hiname; #to drop the table if previously created with this name
 
 create table hiname (
 
