@@ -365,7 +365,7 @@ drop table if exists hiname;
 
 create table hiname (
 
-id serial primary key, 
+id serial primary key, # without using serial it wouldn't be auto numbering , you have to put the order number by manual 
 name varchar (200), 
 city varchar(100)
 
