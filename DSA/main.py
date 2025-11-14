@@ -341,7 +341,21 @@ city varchar(100)
 );
 
 insert into hiname(name , city)
+values ( 'siam' , 'gaibandha'), drop table if exists hiname; 
+
+create table hiname (
+
+id serial primary key, 
+name varchar (200), 
+city varchar(100)
+
+);
+
+insert into hiname(name , city)
 values ( 'siam' , 'gaibandha'), 
 ('alom', 'dhaka'), ('devi johns', 'flying duchman ship'); 
 
 select * from hiname; 
+('alom', 'dhaka'), ('devi johns', 'flying duchman ship'); 
+
+select * from hiname; # never forge to add this line at the last as to print on the console what you have doen
