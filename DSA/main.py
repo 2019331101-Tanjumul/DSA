@@ -413,3 +413,33 @@ select * from customers;
 
 
 -- acc_type varchar(195) not null default 'savings'
+
+
+#task 1 : 
+
+-- emp_id , fname , lname , email ,dept , salary , hire date
+
+--email will be unique , not null in any row or collums except 'dept' , salary : numaric/ decimal use default here for 30000 here , date datatype 
+
+drop table if exists bank; 
+
+create table bank(
+
+emp_id serial primary key , 
+fname varchar(50) not null , 
+lname varchar (50) not null , 
+email varchar (50) not null unique, 
+dept varchar (50), 
+salary int not null default 30000, 
+hire_date date not null
+
+
+
+
+);
+
+INSERT INTO bank (fname, lname, email, dept, salary, hire_date) VALUES
+('Jane', 'Smith', 'jane.smith@email.com', 'IT', 50000, '2023-05-20'),
+ ('Tanjumul','Alom', 'crackerroot4@gmail.com', 'IT',default,'2025-04-09');
+
+select * from bank ;
