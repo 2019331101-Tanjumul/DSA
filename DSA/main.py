@@ -505,6 +505,7 @@
 #factorial : 
 
 n = int(input("Enter your factorial funber here : "))
-sum = 0 
+sum = 1
 for i in range ( 1 , n + 1): 
-    print(f"The factorial number should be : {n*i}")
+    sum *= n
+    print(f"The factorial number should be : {sum}")
