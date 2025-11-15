@@ -476,5 +476,17 @@
 
 # select * from bank ;
 
+
+
+
+
 # 1:10:00 // last checked start from there and then finish to 1:30:00 here; 
 
+# #python strikes again : 
+
+n = int(input("Enter a number : "))
+ 
+sum = 0 
+for i in range(1,n+1): 
+     sum = sum+i 
+     print(f"your output should be : {sum}")
