@@ -493,10 +493,18 @@
 
 
  
-n = int(input("Enter your number : "))
+# n = int(input("Enter your number : "))
 
-sum = 0
+# sum = 0
 
-for i in range ( 1 , n+1): 
-    sum += i 
-    print(f"Your desired output should be this : {sum}") 
+# for i in range ( 1 , n+1): 
+#     sum += i 
+#     print(f"Your desired output should be this : {sum}") 
+
+
+#factorial : 
+
+n = int(input("Enter your factorial funber here : "))
+sum = 0 
+for i in range ( 1 , n + 1): 
+    print(f"The factorial number should be : {n*i}")
