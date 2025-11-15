@@ -529,18 +529,23 @@
 
 #taking the factors of a number : 
 
-n = int(input("Please give me the factor of the number you are wanting : "))
-num = 0 
-for i in range(1,n): 
-    if n%i==0:
-        num += i
+# n = int(input("Please give me the factor of the number you are wanting : "))
+# num = 0 
+# for i in range(1,n): 
+#     if n%i==0:
+#         num += i
 
-if num == n : 
-    print("The number is perfect !!")
-else : 
-    print(f"The number isn't perfect : {n}") 
+# if num == n : 
+#     print("The number is perfect !!")
+# else : 
+#     print(f"The number isn't perfect : {n}") 
        
 #task 1 : take a number and see wather it's a prime or not Ex. 17 = 1,17 itself ; you need to take out all the prime numbers from a range of number and then give the prime numbers output Ex: 100 , 7 , 11 , 17 , 19 , 13 etc.
 
 
 
+#reverse a string : 
+
+a = 'Shahjalal University of Science and Technology , Sylhet '
+
+print(a[::-1])
