@@ -546,9 +546,21 @@
 
 #reverse a string : 
 
-a = 'Shahjalal University of Science and Technology , Sylhet '
-b = ' '
-for i in range (len(a)-1, -1 , -1): 
- b = b + a[i]
+# a = 'Shahjalal University of Science and Technology , Sylhet '
+# b = ' '
+# for i in range (len(a)-1, -1 , -1): 
+#  b = b + a[i]
  
-print(b)
+# print(b)
+
+#pallindrom or not 
+
+a = '101'
+b = ''
+
+for i in range( len(a)-1, -1 , -1): 
+    b +=a[i] 
+if b == a : 
+    print("This is Pallindrom")
+else : 
+    print("Not Pallindrom")
