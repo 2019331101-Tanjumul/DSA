@@ -530,10 +530,13 @@
 #taking the factors of a number : 
 
 n = int(input("Please give me the factor of the number you are wanting : "))
-
-for i in range(1,n+1): 
+num = 0 
+for i in range(1,n): 
     if n%i==0:
-        print(i)
+        num += i
+
+if num == n : 
+    print("The number is perfect !!")
+else : 
+    print(f"The number isn't perfect : {n}") 
        
-    else:
-       continue
