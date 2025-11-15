@@ -564,3 +564,7 @@ if b == a :
     print("This is Pallindrom")
 else : 
     print("Not Pallindrom")
+    
+    
+#your next task is to find how many characters , special cha, digits are in a string is there by using string method search on website and use it 
+#sesson ended in : 03:40 hrs in python
