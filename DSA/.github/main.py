@@ -547,5 +547,8 @@
 #reverse a string : 
 
 a = 'Shahjalal University of Science and Technology , Sylhet '
-
-print(a[::-1])
+b = ' '
+for i in range (len(a)-1, -1 , -1): 
+ b = b + a[i]
+ 
+print(b)
