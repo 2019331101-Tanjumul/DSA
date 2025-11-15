@@ -484,9 +484,19 @@
 
 # #python strikes again : 
 
-n = int(input("Enter a number : "))
+# n = int(input("Enter a number : "))
  
-sum = 0 
-for i in range(1,n+1): 
-     sum = sum+i 
-     print(f"your output should be : {sum}")
+# sum = 0 
+# for i in range(1,n+1): 
+#      sum = sum+i 
+#      print(f"your output should be : {sum}")
+
+
+ 
+n = int(input("Enter your number : "))
+
+sum = 0
+
+for i in range ( 1 , n+1): 
+    sum += i 
+    print(f"Your desired output should be this : {sum}") 
