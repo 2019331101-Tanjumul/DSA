@@ -510,4 +510,19 @@
 #     sum *= i
     
 # print(f"The factorial number should be : {sum}")
-    
+
+
+
+n = int(input("Enter the number of range you want to give me : "))
+
+even = 0
+odd = 0 
+
+for i in range(0,n+1): 
+    if i%2==0:
+        even+=i
+    else : 
+        odd+=i
+
+print(f"The even number of sum is {even}")
+print(f"The odd number of sum is {odd}")
