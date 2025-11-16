@@ -598,7 +598,11 @@
 
 #seperating the digits : 
 
-a = 256 
+a = int(input("Tell me the number :")) 
+b = 0
 while a > 0 : 
-    print(a%10)
+    
+    b = b*10+a%10
     a = a//10
+    #now get the reversed number in normal : 
+print(b)
