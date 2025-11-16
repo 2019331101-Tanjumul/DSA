@@ -609,16 +609,66 @@
 
 #check if it is a pallindrom number or not : 
 
-a = int(input('Insert the number :'))
-copy = a 
-b = 0 
+# a = int(input('Insert the number :'))
+# copy = a 
+# b = 0 
 
-while a > 0 :
- b = b * 10 + a%10 
- a = a // 10 
+# while a > 0 :
+#  b = b * 10 + a%10 
+#  a = a // 10 
  
 
-if copy == b : 
-    print('It is a pallindrom number')
-else : 
-    print(b)
+# if copy == b : 
+#     print('It is a pallindrom number')
+# else : 
+#     print(b)
+
+
+
+# #guessing game : with while loop using simple library random 
+
+# import random 
+# num = random.randint(1,15)
+# # print(num)
+# tries = 1
+
+# while True :
+#         guess = int(input('Guess of your number here please :'))
+#         if num == guess : 
+#             print('You are right ! ')
+#             print(f'You have tried {tries} times to get it right ')
+#             tries+=1
+#             break 
+#         elif guess < num or num <= 7: 
+#             print('you can try a lower number here , the number is lower to 7 maybe !')
+#         elif guess > num : 
+#             print('you can go higher !')
+#         else : 
+#             print("sorry you are wrong")
+#             print(f'And you have tried {tries} times,Goodluck')
+#             tries+=1
+            #it has a logic issue but you are there , you can use if else under elif to fix it : 
+            
+import random 
+num = random.randint(1, 15)
+tries = 1
+
+while True:
+    guess = int(input('Guess your number here please: '))
+    
+    if num == guess:
+        print('You are right!')
+        print(f'You got it right in {tries} tries!')
+        break
+    elif guess < num:
+        if num <= 7:
+            print(f'Hint: The number is 7 or lower, but you guessed too low! (Try #{tries})')
+        else:
+            print(f'Too low! Try higher. (Try #{tries})')
+        tries += 1
+    elif guess > num:
+        if num >= 10:
+            print(f'Hint: The number is 10 or higher, but you guessed too high! (Try #{tries})')
+        else:
+            print(f'Too high! Try lower. (Try #{tries})')
+        tries += 1
