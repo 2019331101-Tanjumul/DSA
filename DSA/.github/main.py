@@ -569,12 +569,29 @@
 #your next task is to find how many characters , special cha, digits are in a string is there by using string method search on website and use it 
 #sesson ended in : 03:40 hrs in python
 
+#not working this while : 
+# a = 20 
 
-a = 20 
+# while a > 5 : 
+#     if a%2==0: 
+#         print(a)
+#     else : 
+#         print ("Not applicable")
+#     a+=a
 
-while a > 5 : 
-    if a%2==0: 
-        print(a)
-    else : 
-        print ("Not applicable")
-    a+=a
+#actual while :
+
+# a = 1 
+# while a <=10 : 
+#     print(a)
+#     a = a+1
+
+#print all the inputed digits in a separate lines with while loop 
+
+a = 1 
+
+n = int(input("input your digits : "))
+
+while a <= n : 
+    print(a)
+    a = a + 1
