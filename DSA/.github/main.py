@@ -555,16 +555,26 @@
 
 #pallindrom or not 
 
-a = '101'
-b = ''
+# a = '101'
+# b = ''
 
-for i in range( len(a)-1, -1 , -1): 
-    b +=a[i] 
-if b == a : 
-    print("This is Pallindrom")
-else : 
-    print("Not Pallindrom")
+# for i in range( len(a)-1, -1 , -1): 
+#     b +=a[i] 
+# if b == a : 
+#     print("This is Pallindrom")
+# else : 
+#     print("Not Pallindrom")
     
     
 #your next task is to find how many characters , special cha, digits are in a string is there by using string method search on website and use it 
 #sesson ended in : 03:40 hrs in python
+
+
+a = 20 
+
+while a > 5 : 
+    if a%2==0: 
+        print(a)
+    else : 
+        print ("Not applicable")
+    a+=a
