@@ -598,11 +598,27 @@
 
 #seperating the digits : 
 
-a = int(input("Tell me the number :")) 
-b = 0
-while a > 0 : 
+# a = int(input("Tell me the number :")) 
+# b = 0
+# while a > 0 : 
     
-    b = b*10+a%10
-    a = a//10
-    #now get the reversed number in normal : 
-print(b)
+#     b = b*10+a%10
+#     a = a//10
+#     #now get the reversed number in normal : 
+# print(b)
+
+#check if it is a pallindrom number or not : 
+
+a = int(input('Insert the number :'))
+copy = a 
+b = 0 
+
+while a > 0 :
+ b = b * 10 + a%10 
+ a = a // 10 
+ 
+
+if copy == b : 
+    print('It is a pallindrom number')
+else : 
+    print(b)
