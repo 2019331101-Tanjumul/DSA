@@ -588,10 +588,17 @@
 
 #print all the inputed digits in a separate lines with while loop 
 
-a = 1 
+# a = 1 
 
-n = int(input("input your digits : "))
+# n = int(input("input your digits : "))
 
-while a <= n : 
-    print(a)
-    a = a + 1
+# while a <= n : 
+#     print(a)
+#     a = a + 1
+
+#seperating the digits : 
+
+a = 256 
+while a > 0 : 
+    print(a%10)
+    a = a//10
