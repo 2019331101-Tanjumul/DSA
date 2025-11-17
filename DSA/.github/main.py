@@ -649,26 +649,35 @@
 #             tries+=1
             #it has a logic issue but you are there , you can use if else under elif to fix it : 
             
-import random 
-num = random.randint(1, 15)
-tries = 1
+# import random 
+# num = random.randint(1, 15)
+# tries = 1
 
-while True:
-    guess = int(input('Guess your number here please: '))
+# while True:
+#     guess = int(input('Guess your number here please: '))
     
-    if num == guess:
-        print('You are right!')
-        print(f'You got it right in {tries} tries!')
-        break
-    elif guess < num:
-        if num <= 7:
-            print(f'Hint: The number is 7 or lower, but you guessed too low! (Try #{tries})')
-        else:
-            print(f'Too low! Try higher. (Try #{tries})')
-        tries += 1
-    elif guess > num:
-        if num >= 10:
-            print(f'Hint: The number is 10 or higher, but you guessed too high! (Try #{tries})')
-        else:
-            print(f'Too high! Try lower. (Try #{tries})')
-        tries += 1
+#     if num == guess:
+#         print('You are right!')
+#         print(f'You got it right in {tries} tries!')
+#         break
+#     elif guess < num:
+#         if num <= 7:
+#             print(f'Hint: The number is 7 or lower, but you guessed too low! (Try #{tries})')
+#         else:
+#             print(f'Too low! Try higher. (Try #{tries})')
+#         tries += 1
+#     elif guess > num:
+#         if num >= 10:
+#             print(f'Hint: The number is 10 or higher, but you guessed too high! (Try #{tries})')
+#         else:
+#             print(f'Too high! Try lower. (Try #{tries})')
+#         tries += 1
+
+
+##function Python : 
+
+def hello(): 
+    print("this is a function and i'm doing function !")
+    
+hello() 
+
