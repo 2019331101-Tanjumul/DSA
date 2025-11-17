@@ -696,3 +696,8 @@ def hello(name , age):
     print(f"your name is {name} and your age {age}")
     
 hello(age = 24 , name = 'Tanjumul')
+
+def sum (a , b=45): 
+    print(f"The sum is {a+b}")
+    
+sum(12)
