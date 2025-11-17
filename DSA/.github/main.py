@@ -676,8 +676,18 @@
 
 ##function Python : 
 
-def hello(): 
-    print("this is a function and i'm doing function !")
+# def hello(): 
+#     print("this is a function and i'm doing function !")
     
-hello() 
+# hello() 
 
+
+##parameters for the function : 
+###the thing you provides 2 parameters is argument 
+
+# def sum(a,b):
+#     print(f"The sum of your number {a+b}")
+    
+# sum(12,44)
+
+##type of argument
