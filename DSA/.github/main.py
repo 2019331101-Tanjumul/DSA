@@ -694,12 +694,33 @@
 
 
 ###This is default argument 
-def hello(name , age): 
-    print(f"your name is {name} and your age {age}")
+# def hello(name , age): 
+#     print(f"your name is {name} and your age {age}")
     
-hello(age = 24 , name = 'Tanjumul')
+# hello(age = 24 , name = 'Tanjumul')
 
-def sum (a , b=45): 
-    print(f"The sum is {a+b}")
+# def sum (a , b=45): 
+#     print(f"The sum is {a+b}")
     
-sum(12)
+# sum(12)
+
+#set a function that cheecks weather it is a pallindorm number or not 
+
+def pallindrom(st): 
+    rev = ""
+
+    for i in range(len(st)-1 , -1 , -1): 
+            rev += st[i]
+        
+        
+    if rev == st : 
+         print("pallindrom")
+
+    else : 
+         print("Not pallindrom ")
+    
+    
+pallindrom("Tanjumul")
+
+pallindrom("10001")
+               
