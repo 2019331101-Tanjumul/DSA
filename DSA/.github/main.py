@@ -692,6 +692,8 @@
 
 ##type of argument
 
+
+###This is default argument 
 def hello(name , age): 
     print(f"your name is {name} and your age {age}")
     
