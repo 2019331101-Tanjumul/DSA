@@ -691,3 +691,8 @@
 # sum(12,44)
 
 ##type of argument
+
+def hello(name , age): 
+    print(f"your name is {name} and your age {age}")
+    
+hello(age = 24 , name = 'Tanjumul')
