@@ -827,12 +827,24 @@
 
 ##find the largest number of a list and print out the index number of the list : 
 
-l = [11,24,53434,22,3232344,22,55,7753,53,0]
-largest = l[0]
-index = 0
-for i in range(len(l)): 
-    if l[i] > largest : 
-        largest = l[i]
-        index = i
+# l = [11,24,53434,22,3232344,22,55,7753,53,0]
+# largest = l[0]
+# index = 0
+# for i in range(len(l)): 
+#     if l[i] > largest : 
+#         largest = l[i]
+#         index = i
 
-print(f'The largest number is : {largest} and the index is {index}')
+# print(f'The largest number is : {largest} and the index is {index}')
+
+
+#find the largest number from a list and the index number please  : 
+
+ll = [123,344, 112, 423, 101, 104,105,10148 , 1385]
+large = ll[0]
+index = 0
+for i in range(len(ll)): 
+    if ll[i] > large:
+        large = ll[i]
+        index = i
+print(f'large number {large} and index {index}')
