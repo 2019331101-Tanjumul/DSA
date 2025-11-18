@@ -706,21 +706,29 @@
 
 #set a function that cheecks weather it is a pallindorm number or not 
 
-def pallindrom(st): 
-    rev = ""
+# def pallindrom(st): 
+#     rev = ""
 
-    for i in range(len(st)-1 , -1 , -1): 
-            rev += st[i]
+#     for i in range(len(st)-1 , -1 , -1): 
+#             rev += st[i]
         
         
-    if rev == st : 
-         print("pallindrom")
+#     if rev == st : 
+#          print("pallindrom")
 
-    else : 
-         print("Not pallindrom ")
+#     else : 
+#          print("Not pallindrom ")
     
     
-pallindrom("Tanjumul")
+# pallindrom("Tanjumul")
 
-pallindrom("10001")
-               
+# pallindrom("10001")
+
+
+#understanding return and print 
+
+def hello (): 
+    return "hello Tanjumul"
+
+print(hello())
+
