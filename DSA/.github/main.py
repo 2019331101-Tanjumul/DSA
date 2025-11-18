@@ -815,12 +815,24 @@
 
 ##find the greater number in the list : 
 
-count = 0
-l = [12,36,14,19,128,6,13]
-largest = l[0]
-for i in range(len(l)): 
-    if l[i] > largest: 
-        largest= l[i]
-        count = i
+# count = 0
+# l = [12,36,14,19,128,6,13]
+# largest = l[0]
+# for i in range(len(l)): 
+#     if l[i] > largest: 
+#         largest= l[i]
+#         count = i
 
-print(largest)
+# print(largest)
+
+##find the largest number of a list and print out the index number of the list : 
+
+l = [11,24,53434,22,3232344,22,55,7753,53,0]
+largest = l[0]
+index = 0
+for i in range(len(l)): 
+    if l[i] > largest : 
+        largest = l[i]
+        index = i
+
+print(f'The largest number is : {largest} and the index is {index}')
