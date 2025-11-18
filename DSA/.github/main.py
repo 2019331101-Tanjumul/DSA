@@ -768,3 +768,17 @@ l = [1,2,3,3,3,4,5,6,7,88,9,0,0,44,3,34,43,3,434,34,34,5,6,6]
 
 l.append(11)
 print(l)
+
+#insert : 
+
+ll =[11 ,1 ,34, 5]
+
+a = len(ll)
+
+ll.insert(3,300)
+
+b = len(ll)
+print(ll) 
+print(a)
+print(b)
+
