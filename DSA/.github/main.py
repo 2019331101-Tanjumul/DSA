@@ -764,21 +764,27 @@
 
 # print(dir(list))
 
-l = [1,2,3,3,3,4,5,6,7,88,9,0,0,44,3,34,43,3,434,34,34,5,6,6]
+l = [1,2,3,3,3,4,5,6,7,88,9,0,0,44,3,34,43,3,434,34,34,5,6,6, -3 ,-33 , -44 , -532, 0 , -994]
 
-l.append(11)
-print(l)
+# l.append(11)
+# print(l)
 
-#insert : 
+# #insert : 
 
-ll =[11 ,1 ,34, 5]
+# ll =[11 ,1 ,34, 5]
 
-a = len(ll)
+# a = len(ll)
 
-ll.insert(3,300)
+# ll.insert(3,300)
 
-b = len(ll)
-print(ll) 
-print(a)
-print(b)
+# b = len(ll)
+# print(ll) 
+# print(a)
+# print(b)
 
+for  i in l: 
+    if i >=0: 
+        print(f"Printing the positives {i}")
+        continue
+    else : 
+        print(f"The negatives{i}")
