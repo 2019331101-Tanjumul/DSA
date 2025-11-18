@@ -838,13 +838,20 @@
 # print(f'The largest number is : {largest} and the index is {index}')
 
 
-#find the largest number from a list and the index number please  : 
+#find the largest number from a list and the second largest number please  : 
 
 ll = [123,344, 112, 423, 101, 104,105,10148 , 1385]
 large = ll[0]
+slarge = ll[0]
 index = 0
-for i in range(len(ll)): 
-    if ll[i] > large:
-        large = ll[i]
-        index = i
-print(f'large number {large} and index {index}')
+for i in ll: 
+    if i > large:
+        slarge = large
+        large = i 
+    elif i > slarge: 
+        slarge = i
+print(f'Printing the largest {large}, second large {slarge}')
+        
+
+
+
