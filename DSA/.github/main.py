@@ -792,17 +792,22 @@ l = [1,2,3,3,3,4,5,6,7,88,9,0,0,44,3,34,43,3,434,34,34,5,6,6, -3 ,-33 , -44 , -5
         
 #another option here : 
 
-pos = []
-neg = []
+# pos = []
+# neg = []
 
-for i in l : 
-    if i >= 0: 
-        pos.append(i)
-        print(f"The positives :{i}")
+# for i in l : 
+#     if i >= 0: 
+#         pos.append(i)
+#         print(f"The positives :{i}")
         
-    else: 
-        neg.append(i)
-        print(f"The negatives : {i}")
+#     else: 
+#         neg.append(i)
+#         print(f"The negatives : {i}")
 
-print(f"The pros is {pos} and the neg is {neg}") 
-print(f"The length of {len(pos)} and the length of neg is : {len(neg)}")       
+# print(f"The pros is {pos} and the neg is {neg}") 
+# print(f"The length of {len(pos)} and the length of neg is : {len(neg)}")       
+sum = 0 
+for i in l : 
+    sum = sum + i 
+
+print(sum/i)
