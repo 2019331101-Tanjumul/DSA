@@ -764,7 +764,7 @@
 
 # print(dir(list))
 
-l = [1,2,3,4,5,6]
+# l = [1,2,3,4,5,6]
 
 # l.append(11)
 # print(l)
@@ -806,8 +806,21 @@ l = [1,2,3,4,5,6]
 
 # print(f"The pros is {pos} and the neg is {neg}") 
 # print(f"The length of {len(pos)} and the length of neg is : {len(neg)}")       
-sum = 0 
-for i in l : 
-    sum = sum + i 
+# sum = 0 
+# for i in l : 
+#     sum = sum + i 
 
-print(sum/i)
+# print(sum/i)
+
+
+##find the greater number in the list : 
+
+count = 0
+l = [12,36,14,19,128,6,13]
+largest = l[0]
+for i in range(len(l)): 
+    if l[i] > largest: 
+        largest= l[i]
+        count = i
+
+print(largest)
