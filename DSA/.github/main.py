@@ -727,8 +727,34 @@
 
 #understanding return and print 
 
-def hello (): 
-    return "hello Tanjumul"
+# def hello (): 
+#     return "hello Tanjumul"
 
-print(hello())
+# print(hello())
+
+
+#data structures
+
+#lists , touple , dictionary , set 
+
+#list :; 
+
+a = [13, 14 , 144 , 1111, 345]
+
+fruits = ['apple', 'banana']
+
+# print(fruits[0])
+# print(a[3])
+
+#slicing : 
+
+# print(a[0:4:1])
+
+for i in range(len(a)): 
+    print(a[i])
+
+#second way : 
+
+# for i in a: 
+#     print(i)
 
